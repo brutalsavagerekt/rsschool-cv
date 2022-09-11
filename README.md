@@ -1,1 +1,1 @@
-https://github.com/brutalsavagerekt/rsschool-cv/cv
+https://brutalsavagerekt.github.io/rsschool-cv/cv
