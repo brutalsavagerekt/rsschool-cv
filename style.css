@@ -1,3 +1,136 @@
-h1, h4, p, li, i, strong {
-    font-family: Roboto, "Helvetica Neue";
+* {
+    box-sizing: border-box;
+  }
+
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #191919;
+    min-height: 100vh;
+    margin: 0; padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #E8EBE8;
+}
+
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.section {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+.nav-item a {
+    color: #191919;
+    text-decoration: none;  
+    transition: color 0.5s;
+}
+
+.nav-item a:hover {
+    color:  #61BA91;
+}
+
+
+.profile-img {
+    margin-top: 15px;
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+}
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-text {
+    flex-grow: 1;
+    margin-left: 15px;
+}
+
+.profile-title,
+.profile-description {
+    margin: 0;
+}
+
+.code {
+    display: block;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #191919;
+}
+
+.pre-wrap {
+    white-space: pre-wrap;
+    margin: 0;
+}
+
+.devider {
+    display: flex;
+    background-color: #191919;
+    width: 100%;
+    margin: 15px 0 15px 0;
+}
+
+.footer {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.github-link a {
+
+    color: #191919;
+    color: #191919;
+    text-decoration: none;  
+    transition: color 0.5s;
+}
+
+.github-link a:hover {
+    color: #191919;
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px 0 15px;
+}
+
+.git-img {
+
+    height:60px;
+    width: 60px;
+}
+
+.rs-logo {
+    height:60px;
 }
