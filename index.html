@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#project" class="nav-link">Project</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main main-container">
+        <div class="container">
+            <section class="section profile" id="profile">
+                <img class="profile-img" src="assets/img/photo.jpeg" alt="profile photo">
+                <div class="profile-text">
+                    <h1 class="section-title profile-title">Oleksandr Bondarchuk</h1>
+                    <p class="profile-description">Junior frontend developer</p>
+                </div>
+            </section>
+            
+            <section class="section" id="about">
+                <hr class="devider">
+                <h2 class="section-title">About me</h2>
+                <p>I have over seven years of professional and management experience in CEO and PM position. I was working with different teams: copywriters and content managers, designers, developers and sales teams. Also I have extensive experience working with remote teams. For last years I major in project management for software development.
+
+                    I consider my strengths to be self-organization, proactivity and responsibility
+                    
+                    While working as a CEO/Digital Strategist for a news agency "Pushkinska", I increased brand awareness and website traffic from 5,000 to 250,000 people per month.
+                    
+                    Managed a startup with a team of 15 people, and also interacted and coordinated work with third-party teams that were engaged in marketing, website development and the mobile application development team of the service. Successfully launched the project and exceeded the financial plan for the first month by 50%.
+                    
+                    Currently I work in a company that develops websites and mobile applications as a project manager.
+                </p>
+            </section>
+            <section class="section" id="skills">
+                <hr class="devider">
+                <h2 class="section-title">Skills</h2>
+                <ul class="skills-list">
+                    <li class="skill-item">Basic knowledge of Javascript</li>
+                    <li class="skill-item">Basic knowledge of Python</li>
+                    <li class="skill-item">Basic knowledge of HTML and CSS</li>
+                    <li class="skill-item">CraftCMS / Wordpress</li>
+                    <li class="skill-item">Manual QA</li>
+                    <li class="skill-item">Agile methodology</li>
+                    <li class="skill-item">Jira / Asana / YouTrack / ClickUp</li>
+                    <li class="skill-item">Basic knowledge of AWS S3</li>
+                    <li class="skill-item">Figma / Illustrator / Photoshop</li>
+                </ul>
+            </section>
+            <section class="section" id="work">
+                <hr class="devider">
+                <h2 class="section-title">My work</h2>
+                <p>I have no experience as a developer.</p>
+            </section>
+            <section class="section" id="code">
+                <hr class="devider">
+                <h2 class="section-title code-title">Code example</h2>
+                <p>Task: Given a string made of digits [0-9], return a string where each digit is repeated a number of times equals to its value. <br>
+                    <pre class="pre-wrap">
+                        <code class="code">
+                        function explode(s) {
+                            let output = '';
+                            for (let i = 0; i &lt; s.length;i++) {
+                                if (s[i] !== '0'){
+                                    let itterNum = parseInt(s[i]);
+                                    let counter = itterNum;
+                                    while (counter) {
+                                        output = output + itterNum;
+                                        counter--;
+                                }
+                                }
+                            }
+                            return output;
+                          }
+                    </code>
+                </pre>
+            </section>
+            <section class="section" id="education">
+                <hr class="devider">
+                <h2 class="section-title">Education and courses</h2>
+                <ul class="edu-list">
+                    <li class="edu-item">Kirovskiy Transport College - railway construction engineer.</li>
+                    <li class="edu-item">National University "Odessa Law Academy" - Institute of Prosecution and Investigation</li>
+                    <li class="edu-item">Python online courses(basic level) - <a href="https://stepik.org/cert/183054">https://stepik.org/cert/183054</a></li>
+                </ul>
+            </section>
+            <section class="section" id="project">
+                <hr class="devider">
+                <h2 class="section-title">My projects</h2>
+                <p>Here is you can find the link for <a href="https://brutalsavagerekt.github.io/rsschool-cv/">Stage0 project "HTML CV"</a></p>
+            </section>
+            <section class="section" id="english">
+                <hr class="devider">
+                <h2 class="section-title">English level</h2>
+                <p>My English is at a higher than intermediate level. I can communicate fluently in English, both in writing and orally, but I have not taken formal tests or have an official assessment of my level of language proficiency.</p>
+            </section>
+            <section class="section" id="contacts">
+                <hr class="devider">
+                <h2 class="section-title">Contacts</h2>
+                <ul>
+                    <li><a href="tel:+380997031849">+380997031849</a></li>
+                    <li><a href="mailto:just.bondarchuk@gmail.com">just.bondarchuk@gmail.com</a></li>
+                    <li><a href="tel:alexander_bondarchyk">alexander_bondarchyk</a></li>
+                    <li>discord: 0xUser(@brutalsavagerekt)</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-items">
+                <a href="https://github.com/brutalsavagerekt" class="git-logo footer-item"><img class="git-img" src="assets/svg/github-mark.svg" alt="Github logo"></a>
+                <div class="github-link footer-item"><a href="https://github.com/brutalsavagerekt" class="github-nickname">@brutalsavagerekt</a></div>
+                <div class="year footer-item">2023</div>
+                <a href="https://rs.school/js/"><img class="rs-logo" src="assets/svg/rs_school_js.svg" alt="rs school logo"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
